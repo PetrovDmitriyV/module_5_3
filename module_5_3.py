@@ -29,7 +29,7 @@ class House:
 
     def __ge__(self, other):
         isinstance(other, House)
-        return self.number_of_floors >= other.number_of_floors  # True если этажей меньше или равно с чем сравниваем
+        return self.number_of_floors >= other.number_of_floors  # True если этажей больше или равно с чем сравниваем
 
     def __ne__(self, other):
         isinstance(other, House)
